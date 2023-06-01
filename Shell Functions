@@ -1,0 +1,20 @@
+#!/bin/bash
+# enter your function code here
+
+function ENGLISH_CALC {
+	prem=$1
+    operator=$2
+    sec=$3
+    echo $prem
+    echo $operator
+    echo "plus"
+    echo $sec
+	#if "$operator" -eq "plus" ; then
+    #	echo "$1 $2 $3 = $(($prem+$sec))"
+    #fi
+}
+
+# testing code
+ENGLISH_CALC 3 plus 5
+ENGLISH_CALC 5 minus 1
+ENGLISH_CALC 4 times 6
